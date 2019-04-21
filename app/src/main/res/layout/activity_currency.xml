@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CurrencyActivity">
+
+    <EditText
+        android:id="@+id/et_currency"
+        android:layout_width="249dp"
+        android:layout_height="63dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="Enter Currency"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_czk"
+        android:layout_width="322dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="17dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="CZK:"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_try"
+        app:layout_constraintStart_toStartOf="@+id/tv_chf" />
+
+    <TextView
+        android:id="@+id/tv_try"
+        android:layout_width="322dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="17dp"
+        android:layout_marginTop="17dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="TRY:"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_show"
+        app:layout_constraintStart_toStartOf="@+id/tv_chf"
+        app:layout_constraintTop_toBottomOf="@+id/et_currency" />
+
+    <TextView
+        android:id="@+id/tv_chf"
+        android:layout_width="322dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="17dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginStart="17dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="CHF:"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_czk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:layout_marginEnd="8dp"
+        android:text="Göster"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tv_try" />
+
+</android.support.constraint.ConstraintLayout>

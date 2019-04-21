@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="width_button">61dp</dimen>
+    <dimen name="height_button">61dp</dimen>
+    <dimen name="margin_top_button">19dp</dimen>
+    <dimen name="margin_bottom_button">19dp</dimen>
+    <dimen name="margin_left_button">19dp</dimen>
+    <dimen name="margin_right_button">19dp</dimen>
+    <dimen name="height_nav_header">179dp</dimen>
+</resources>

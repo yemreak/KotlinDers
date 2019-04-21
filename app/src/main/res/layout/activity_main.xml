@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yemreak.kotlinders.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ImageButton
+        android:id="@+id/ib_simpson"
+        android:layout_width="@dimen/width_button"
+        android:layout_height="@dimen/height_button"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="@dimen/margin_top_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/homer_16px" />
+
+    <ImageButton
+        android:id="@+id/ib_sharedPreference"
+        android:layout_width="@dimen/width_button"
+        android:layout_height="@dimen/height_button"
+        android:layout_marginEnd="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="@dimen/margin_top_button"
+        app:layout_constraintEnd_toStartOf="@+id/ib_chroneonometer"
+        app:layout_constraintStart_toEndOf="@+id/ib_simpson"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/folder_24px" />
+
+    <ImageButton
+        android:id="@+id/ib_chroneonometer"
+        android:layout_width="@dimen/width_button"
+        android:layout_height="@dimen/height_button"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="@dimen/margin_top_button"
+        app:layout_constraintEnd_toStartOf="@+id/ib_dataBase"
+        app:layout_constraintStart_toEndOf="@+id/ib_simpson"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/chronometer_32px" />
+
+    <ImageButton
+        android:id="@+id/ib_dataBase"
+        android:layout_width="@dimen/width_button"
+        android:layout_height="@dimen/height_button"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="@dimen/margin_right_button"
+        android:layout_marginTop="@dimen/margin_top_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sql_32px" />
+
+    <ImageButton
+        android:id="@+id/ib_favBook"
+        android:layout_width="@dimen/width_button"
+        android:layout_height="@dimen/height_button"
+        android:layout_marginEnd="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="@dimen/margin_top_button"
+        app:layout_constraintEnd_toStartOf="@+id/ib_dataBase"
+        app:layout_constraintStart_toEndOf="@+id/ib_chroneonometer"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bookwithstart_36px" />
+
+    <ImageButton
+        android:id="@+id/ib_myMemory"
+        android:layout_width="@dimen/width_button"
+        android:layout_height="@dimen/height_button"
+        android:layout_marginTop="@dimen/margin_top_button"
+        app:layout_constraintStart_toStartOf="@+id/ib_simpson"
+        app:layout_constraintTop_toBottomOf="@+id/ib_simpson"
+        app:srcCompat="@drawable/video_like_32px" />
+
+    <ImageButton
+        android:id="@+id/ib_maps"
+        android:layout_width="@dimen/width_button"
+        android:layout_height="@dimen/height_button"
+        android:layout_marginTop="@dimen/margin_top_button"
+        app:layout_constraintStart_toStartOf="@+id/ib_sharedPreference"
+        app:layout_constraintTop_toBottomOf="@+id/ib_sharedPreference"
+        app:srcCompat="@drawable/navigation_32px" />
+
+    <ImageButton
+        android:id="@+id/ib_musicPlayer"
+        android:layout_width="@dimen/width_button"
+        android:layout_height="@dimen/height_button"
+        android:layout_marginTop="@dimen/margin_top_button"
+        app:layout_constraintStart_toStartOf="@+id/ib_chroneonometer"
+        app:layout_constraintTop_toBottomOf="@+id/ib_chroneonometer"
+        app:srcCompat="@drawable/music_player_32px" />
+
+    <ImageButton
+        android:id="@+id/ib_currency"
+        android:layout_width="@dimen/width_button"
+        android:layout_height="@dimen/height_button"
+        android:layout_marginTop="@dimen/margin_top_button"
+        app:layout_constraintStart_toStartOf="@+id/ib_favBook"
+        app:layout_constraintTop_toBottomOf="@+id/ib_favBook"
+        app:srcCompat="@drawable/coins" />
+
+    <ImageButton
+        android:id="@+id/ib_fourSquare"
+        android:layout_width="@dimen/width_button"
+        android:layout_height="@dimen/height_button"
+        android:layout_marginTop="19dp"
+        app:layout_constraintStart_toStartOf="@+id/ib_dataBase"
+        app:layout_constraintTop_toBottomOf="@+id/ib_dataBase"
+        app:srcCompat="@drawable/foursquare_32px" />
+
+    <ImageButton
+        android:id="@+id/ib_tabBar"
+        android:layout_width="@dimen/width_button"
+        android:layout_height="@dimen/height_button"
+        android:layout_marginTop="@dimen/margin_top_button"
+        app:layout_constraintStart_toStartOf="@+id/ib_myMemory"
+        app:layout_constraintTop_toBottomOf="@+id/ib_myMemory"
+        app:srcCompat="@drawable/tabbar_32px" />
+
+    <ImageButton
+        android:id ="@+id/ib_navigationDrawer"
+        android:layout_width="@dimen/width_button"
+        android:layout_height="@dimen/height_button"
+        android:layout_marginTop="@dimen/margin_top_button"
+        app:layout_constraintStart_toStartOf="@+id/ib_maps"
+        app:layout_constraintTop_toBottomOf="@id/ib_maps"
+        app:srcCompat ="@drawable/navigationdrawer_32px"
+        />
+
+
+</android.support.constraint.ConstraintLayout>

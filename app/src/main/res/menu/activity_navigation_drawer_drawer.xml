@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!-- Sadece bir tanesi seçilebilir (radioButton gibi) -->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_favourites"
+            android:icon="@drawable/video_like_32px"
+            android:title="Favourite"/>
+        <item
+            android:id="@+id/nav_simpsons"
+            android:icon="@drawable/homer_34px"
+            android:title="Simpsons"/>
+        <item
+            android:id="@+id/nav_bookmarks"
+            android:icon="@drawable/bookwithstart_36px"
+            android:title="Bookmarks"/>
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_sql"
+                android:icon="@drawable/sql_32px"
+                android:title="SQL"/>
+            <item
+                android:id="@+id/nav_foursquare"
+                android:icon="@drawable/foursquare_32px"
+                android:title="FourSquare"/>
+        </menu>
+    </item>
+
+</menu>

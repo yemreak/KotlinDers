@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MusicPlayerActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="152dp"
+        android:layout_height="87dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="Music Player"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/iv_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="391dp"
+        android:layout_height="319dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/water_324px" />
+
+    <Button
+        android:id="@+id/btn_forward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="19dp"
+        android:layout_marginStart="8dp"
+        android:text=">>"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="8dp" />
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="108dp"
+        android:layout_marginStart="8dp"
+        android:text=">"
+        app:layout_constraintEnd_toStartOf="@+id/btn_back"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toEndOf="@+id/btn_forward"
+        app:layout_constraintTop_toTopOf="@+id/btn_forward"
+        android:layout_marginRight="108dp"
+        android:layout_marginLeft="8dp" />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="108dp"
+        android:text="||"
+        app:layout_constraintEnd_toStartOf="@+id/btn_back"
+        app:layout_constraintStart_toEndOf="@+id/btn_forward"
+        app:layout_constraintTop_toTopOf="@+id/btn_forward"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="108dp" />
+
+    <SeekBar
+        android:id="@+id/sb_bar"
+        android:layout_width="238dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_forward"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_curTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="00:00"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/sb_bar"
+        app:layout_constraintTop_toTopOf="@+id/sb_bar"
+        android:layout_marginRight="8dp" />
+
+    <TextView
+        android:id="@+id/tv_maxTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="00:00"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/sb_bar"
+        app:layout_constraintTop_toTopOf="@+id/sb_bar"
+        android:layout_marginLeft="8dp" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Name"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/sb_bar"
+        app:layout_constraintEnd_toStartOf="@+id/tv_maxTime"
+        app:layout_constraintStart_toStartOf="@+id/sb_bar" />
+
+</android.support.constraint.ConstraintLayout>

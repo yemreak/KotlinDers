@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Kotlin Ders</string>
+
+    <!-- Texts here -->
+    <string name="txt_save">Kaydet</string>
+    <string name="txt_name">İsim</string>
+    <string name="txt_age">Yaş</string>
+    <string name="txt_job">Meslek</string>
+    <string name="txt_start">Başlat</string>
+    <string name="txt_stop">Durdur</string>
+    <string name="txt_addMemory"> Anı ekle</string>
+    <string name="txt_detail">Detaylar </string>
+
+    <!-- Messages here -->
+    <string name="msg_err_age">Lütfen yaşın doğru olduğuna emin ol</string>
+    <string name="msg_saved">Kaydedildi</string>
+    <string name="msg_deleted">Silindi</string>
+    <string name="msg_got">Alındı</string>
+    <string name="msg_needPermission">İznin gerekli :(</string>
+
+    <!-- On Click Messages -->
+    <string name="msg_ibSimpsonOnClick">Simpson oluşturma aktivitesi</string>
+    <string name="msg_ibSharedPereferenceOnClick">Basit veri saklama aktivitesi</string>
+    <string name="msg_ibChronometerOnClick">Kronometre aktivitesi</string>
+    <string name="msg_ibFavBookOnClick">Basit veri aktarımı aktivitesi</string>
+    <string name="msg_ibDataBaseOnClick"> Veri saklama aktivitesi </string>
+    <string name="msg_ibMyMemoryOnClick"> Anılarım uygulaması (SQL aktivity)</string>
+    <string name="msg_ibMapsOnClick">Haritalar aktivitesi</string>
+    <string name="msg_ibMusicPlayerOnClick">Muzik Oynatıcısı Aktivitesi</string>
+    <string name="msg_ibCurrencyOnClick">Döviz Aktivitesi</string>
+    <string name="msg_ibFourSquareOnClick">FourSquare Klonu (Parse)</string>
+    <string name="msg_ibTabBarOnClick">TabBar Aktivitesi</string>
+    <string name="msg_ibNavigationDrawerOnClick"> Navigation Drawer Aktivitesi</string>
+
+    <!-- Menu OnClick Messages -->
+    <string name="msg_menu_addMemory"> Anı ekleme aktivitesi</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- Permission Messages -->
+    <string name="msg_per_need_location"> Konum iznine ihtiyacım var :/</string>
+
+    <!-- URI's -->
+    <string name="uri_blog_kotlin_sqlWithDatabase">"http://yemreak.blogspot.com.tr/2018/01/kotlin-sql-ile-database-olusturma.html"</string>
+
+    <!-- Parse Operations -->
+    <string name="parse_server_url">---</string>
+    <string name="parse_app_id">----</string>
+
+</resources>
